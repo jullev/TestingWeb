@@ -7,7 +7,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img class="profile-image img-responsive pull-left" src="<?php echo base_url();?>assets/images/logouvaya.png" width="45px" height="45px" />       
+                <img class="profile-image img-responsive pull-left" src="<?php echo base_url();?>assets/images/logouvaya.png" width="45px" height="45px" /><br>
+                <h2>Mari kita UVAYA-kan kesuksesan kita... Hahaha - Rizky </h2>       
                 <a class="navbar-brand" href="<?php echo base_url();?>dashboard">
                 <b>Laman Admin</b>
                 </a>
