@@ -53,7 +53,7 @@
    
     <footer class="footer">
         <div class="container text-center">
-                <small class="copyright">copyright &copy; Universitas Achmad Yani Banjarmasin</small>
+                <small class="copyright">copyright &copy; Footer baru kuubah ha ha ha</small>
                 <small class="copyright pull-right"><a href="<?php echo base_url();?>login"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Login Admin</small>
         </div><!--//container-->
     </footer><!--//footer-->
