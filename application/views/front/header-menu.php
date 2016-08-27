@@ -13,7 +13,7 @@
 			     </button>
                   <div class="collapse navbar-collapse">
 	                <ul class="nav navbar-nav navbar-right">
-		              <li><a href="<?php echo base_url();?>beranda">Beranda</a></li>
+		              <li><a href="<?php echo base_url();?>beranda">Home</a></li>
                       
                       <li class="dropdown">
                       <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tentang <span class="caret"></span></a>
@@ -30,7 +30,7 @@
 		              </li> 
                       
 		              <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Fakultas <span class="caret"></span></a>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Campus <span class="caret"></span></a>
                       <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                        
                         <li class="dropdown-submenu">
@@ -96,7 +96,7 @@
                       </ul>
 		              </li> 
                       <li><a href="#">Galeri</a></li>
-		              <li><a href="list-berita.html">Berita</a></li>
+		              <li><a href="list-berita.html">News</a></li>
 		              <li><a href="#">Hubungi Kami</a></li>
 	                </ul>
                   </div>
