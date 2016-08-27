@@ -1,0 +1,154 @@
+.cbp-af-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #f6f6f6;
+	z-index: 10000;
+	height: 150px;
+	overflow: hidden;
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+	z-index:100;
+}
+.cbp-af-header .cbp-af-logo{
+	float: left;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.cbp-af-header .cbp-af-inner {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 0 1.875em;
+	z-index:200;
+}
+
+.cbp-af-header .cbp-af-inner nav{
+	z-index: 9999;
+}	
+.cbp-af-header h2,
+
+ /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
+.cbp-af-header h2 {
+	line-height: 90px;
+}
+
+.cbp-af-header h2 {
+	text-transform: uppercase;
+	color: #333;
+	letter-spacing: 1px;
+	font-size: 2em;
+	margin: 0;
+	float: left;
+}
+
+/* Transitions and class for reduced height */
+.cbp-af-header img,
+.cbp-af-header h2{
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.cbp-af-header.cbp-af-header-shrink {
+	height: 80px;
+}
+
+.cbp-af-header.cbp-af-header-shrink img {
+	line-height: 90px;
+}
+
+.cbp-af-header.cbp-af-header-shrink h2 {
+	font-size: 1em;
+	line-height: 50px;
+}
+.cbp-af-header.cbp-af-header-shrink nav {
+	z-index: 9999;
+}
+
+.cbp-af-header.cbp-af-header-shrink img {
+		height: 60px;
+		width: 200px;
+	}
+.cbp-af-header-shrink .cbp-af-logo{
+	float: left;
+	padding-left: 50px;
+	padding-top: 10px;
+}	
+/* Example Media Queries */
+@media screen and (max-width: 55em) {
+	
+	.cbp-af-header .cbp-af-inner {
+		width: 100%;
+		z-index:200;
+	}
+
+	.cbp-af-header h2,
+	.cbp-af-header nav {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+	}
+
+	.cbp-af-header img {
+		height: 60px;
+		width: 200px;
+	}
+	.cbp-af-header .cbp-af-logo{
+		float: left;
+		padding-left: 50px;
+		padding-top: 10px;
+	}
+
+	.cbp-af-header h2,
+	.cbp-af-header nav a {
+		line-height: 100px;
+	}
+
+	.cbp-af-header nav a {
+		margin: 0 10px;
+	}
+
+
+	.cbp-af-header.cbp-af-header-shrink h2,
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		line-height: 45px;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink h2 {
+		font-size: 2em;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		font-size: 1em;
+	}
+
+}
+
+@media screen and (max-width: 32.25em) {
+	.cbp-af-header.cbp-af-header-shrink{
+		height: 150px;
+	}
+
+	.nivoSlider{
+		height: 200px;
+	}
+
+	 .maps-location iframe{
+    height: 200px;
+    width: 230px;
+  }
+
+}
+
+@media screen and (max-width: 24em) {
+	.cbp-af-header nav a,
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		line-height: 1;
+	}
+}
