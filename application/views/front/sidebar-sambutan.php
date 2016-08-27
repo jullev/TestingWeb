@@ -8,7 +8,7 @@
                              </div>
                          </div>
                          <div class="panel-body">
-                              <p>Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
+                              <p><h2>Mari kita UVAYA-kan kesuksesan kita... Hahaha - Rizky </h2></p>
                          </div>
                      </div>             
                 </aside><!--//section-->
